@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Pizza PDX </title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body id="home">
+		<div id="menuBG">
+			<h1 style="margin:0 0px 0 20px;">Pizza Drill Tutorial</h1>
+
+			<form id="frmMenu">
+				<div class="menuleft">
+					<h3>Step 1 : Choose sizesssss</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza" checked> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" > Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+				</div>
+				<div class="menuright">
+					<h3>Step 2:Choose meat toppingsssss</h3>
+          <h5> Each item is an additional $1.00<h5>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni (+1.00)"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage (+1.00)"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon (+1.00)"> Canadian Bacon<br>
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef (+1.00)"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy (+1.00)"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken (+1.00)"> Chicken<br>
+				</div>
+        <div class ="menucheese">
+          <h3>Step 3 : Choose Cheese</h3>
+					<input class="cheese" type="radio" name="Cheese" value="Regular"> Regualr<br>
+					<input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br>
+        </div>
+        <div class ="menucrust">
+          <h3>Step 3 : Choose Crust</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain" checked> Plain<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic"> Garlic<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed"> Cheese Stuffed<br>
+          <input class="crust" type="radio" name="Crust" value="Plain" > Spicy<br>
+          <input class="crust" type="radio" name="Crust" value="Plain" > House<br>
+        </div>
+        <div class="menuveggies">
+					<h3>Step 2:Choose veggies</h3>
+          <h5> Each item is an additional $1.00<h5>
+					<input class="meats" type="checkbox" name="Veggie" value="Tomatoes (+1.00)"> Tomatoes<br>
+					<input class="meats" type="checkbox" name="Veggie" value="Onions (+1.00)"> Onions<br>
+					<input class="meats" type="checkbox" name="Veggie" value="Mushrooms (+1.00)"> Mushrooms<br>
+					<input class="meats" type="checkbox" name="Veggie" value="Spinach (+1.00)"> Spinach<br>
+					<input class="meats" type="checkbox" name="Veggie" value="Jalapeno (+1.00)"> Jalapeno<br>
+				</div>
+
+
+
+
+				<div id="cart">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+          <div id="cheesOption"></div>
+				</div>
+
+
+			</form>
+		</div>
+    <input id="btnOrder" type="button" onclick="getReceipt()"
+      value="Place Order">
+	</body>
+
+
+</html>

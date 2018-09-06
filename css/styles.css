@@ -1,0 +1,139 @@
+
+#home {
+  background: url(../img/images.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+
+}
+#meats {
+  color: #f4ec4e;
+  font-family: fantasy;
+  font-size: 40px;
+
+}
+.menuright h3, .menuleft h3, .cheese h3, .crust h3 {
+  color: white;
+}
+#menuBG {
+  color: white;
+}
+#pizza {
+  text-align: center;
+  color: green;
+  font-size: 40px;
+}
+#special {
+  text-align: center;
+  color:#f4ec4e;
+  font-family: fantasy;
+}
+#sizemenu {
+  color: #f4ec4e;
+  font-family: fantasy;
+  font-size: 40px;
+}
+.nav-link {
+  color:white;
+  font-size: 20px;
+}
+.jumbotron {
+  fluid; background-color: inherit;
+}
+.container {
+  color: #f4ec4e;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.container p {
+  font-size: 20px;
+  color: white;
+  font-family:sans-serif;
+}
+
+
+
+
+
+h1 .link {
+  font-size: 100px;
+  color:black;
+
+}
+h1{
+  text-align: center;
+  color:#fff;
+}
+
+li: .cinema {
+  font-family: fantasy;
+  font-size: 50px;
+  color:#c2f442;
+
+}
+
+
+
+.this {
+  color:#f7902a;
+  font-size: 50px;
+  text-align: center;
+}
+
+.recent h1,ul .cinema {
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  color: #f7902a;
+  list-style: none;
+  padding-bottom:50px;
+
+}
+.recent ul .cinema {
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  color: #f7902a;
+  list-style: none;
+  padding-bottom:50px;
+
+}
+
+ul .cinema {
+  font-size: 50px;
+  color: #f7902a;
+}
+
+p.name
+ {
+  color: #f7902a;
+  font-size: 80px;
+  padding-bottom: 70px;
+
+}
+
+.main {
+  font-size: 75px;
+  color:#f7902a;
+}
+
+.pic img {
+  height: 500px;
+  width: 500px;
+  align-self: center;
+}
+
+.col-md-6 {
+  color: red;
+
+}
+
+.aboutme {
+  background-color: black;
+}
+
+.col-md-4 {
+  float:right;
+  margin:30px;
+
+}
