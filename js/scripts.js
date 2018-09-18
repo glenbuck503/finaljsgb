@@ -144,5 +144,4 @@ function getSauce(runningTotal, text1) {
 	document.getElementById("showText").innerHTML=text1;
 	document.getElementById("totalPrice").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
 
-
 };
