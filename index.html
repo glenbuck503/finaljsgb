@@ -15,10 +15,10 @@
 			<form id="frmMenu">
 				<div class="menuleft">
 					<h3>Step 1 : Choose sizes</h3>
-					<input class="size" type="radio" name="Size" value="Personal Pizza" checked> Personal Pizza<br>
-					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
-					<input class="size" type="radio" name="Size" value="Large Pizza" > Large Pizza<br>
-					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Personal Pizza(6.00)" checked> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza(10.00)"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza(14.00)" > Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza(16.00)"> Extra Large Pizza<br>
 				</div>
 				<div class="menuright">
 					<h3>Step 2:Choose meat toppings</h3>
@@ -30,45 +30,44 @@
 					<input class="meats" type="checkbox" name="Meat" value="Anchovy (+1.00)"> Anchovy<br>
 					<input class="meats" type="checkbox" name="Meat" value="Chicken (+1.00)"> Chicken<br>
 				</div>
-        <div class ="menucheese">
-          <h3>Step 3 : Choose Cheese</h3>
-					<input class="cheese" type="radio" name="Cheese" value="Regular"> Regualr<br>
-					<input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
-					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br>
-        </div>
-        <div class ="menucrust">
-          <h3>Step 3 : Choose Crust</h3>
-					<input class="crust" type="radio" name="Crust" value="Plain" checked> Plain<br>
-					<input class="crust" type="radio" name="Crust" value="Garlic"> Garlic<br>
-					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed"> Cheese Stuffed<br>
-          <input class="crust" type="radio" name="Crust" value="Plain" > Spicy<br>
-          <input class="crust" type="radio" name="Crust" value="Plain" > House<br>
-        </div>
         <div class="menuveggies">
 					<h3>Step 2:Choose veggies</h3>
           <h5> Each item is an additional $1.00<h5>
-					<input class="meats" type="checkbox" name="Veggie" value="Tomatoes (+1.00)"> Tomatoes<br>
-					<input class="meats" type="checkbox" name="Veggie" value="Onions (+1.00)"> Onions<br>
-					<input class="meats" type="checkbox" name="Veggie" value="Mushrooms (+1.00)"> Mushrooms<br>
-					<input class="meats" type="checkbox" name="Veggie" value="Spinach (+1.00)"> Spinach<br>
-					<input class="meats" type="checkbox" name="Veggie" value="Jalapeno (+1.00)"> Jalapeno<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Tomatoes (+1.00)"> Tomatoes<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Onions (+1.00)"> Onions<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Mushrooms (+1.00)"> Mushrooms<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Spinach (+1.00)"> Spinach<br>
+					<input class="veggies" type="checkbox" name="Veggie" value="Jalapeno (+1.00)"> Jalapeno<br>
 				</div>
-
-
-
+        <div class ="menucheese">
+          <h3>Step 3 : Choose Cheese</h3>
+					<input class="cheese" type="radio" name="Cheese" value="Regular Cheese(free)"> Regular Cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="No Cheese(free)"> No Cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese(+3.00)"> Extra Cheese<br>
+        </div>
+        <div class ="menucrust">
+          <h3>Step 3 : Choose Crust</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain Crust(free)"> Plain<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Crust(free)"> Garlic<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust(3.00)"> Cheese Stuffed<br>
+          <input class="crust" type="radio" name="Crust" value="Spciy Crust(free)"> Spicy<br>
+          <input class="crust" type="radio" name="Crust" value="House Crust(free)"> House<br>
+        </div>
+        <div class ="menusauce">
+          <h3>Step 3 : Choose Sauce</h3>
+					<input class="sauce" type="radio" name="Crust" value="Marinara"> Marinara<br>
+					<input class="sauce" type="radio" name="Crust" value="White Sauce"> White Sauce<br>
+					<input class="sauce" type="radio" name="Crust" value="BBQ Sauce"> BBQ Sauce<br>
+          <input class="sauce" type="radio" name="Crust" value="No Sauce"> No Sauce<br>
+        </div>
 
 				<div id="cart">
 					<div id="showText"></div>
 					<div id="totalPrice"></div>
-          <div id="cheesOption"></div>
 				</div>
-
-
 			</form>
 		</div>
     <input id="btnOrder" type="button" onclick="getReceipt()"
       value="Place Order">
 	</body>
-
-
 </html>
